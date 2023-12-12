@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "waffles-scythes",
+	"id": "wafflesscythes",
 	"version": "${version}",
 	"name": "Waffle's Scythes",
 	"description": "This adds simple vanilla-like scythes!",
@@ -8,7 +8,7 @@
 		"WaffleBender"
 	],
 	"contact": {
-		"homepage": "*",
+		"homepage": "",
 		"sources": "https://github.com/WaffleBender/waffles-scythes"
 	},
 	"license": "CC0-1.0",

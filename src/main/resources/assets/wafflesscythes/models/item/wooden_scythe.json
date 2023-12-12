@@ -1,0 +1,6 @@
+{
+  "parent": "wafflesscythes:item/handheld_scythe",
+  "textures": {
+    "layer0": "wafflesscythes:item/wooden_scythe"
+  }
+}
