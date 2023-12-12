@@ -18,12 +18,12 @@ import wafflebender.wafflesscythes.WafflesScythes;
 import javax.swing.text.html.HTML;
 
 public class ModItems {
-    public static final Item WOODEN_SCYTHE = registerItem("wooden_scythe", new SwordItem(ToolMaterials.WOOD, 0, -3.2f, new FabricItemSettings()));
-    public static final Item STONE_SCYTHE = registerItem("stone_scythe", new SwordItem(ToolMaterials.STONE, 0, -3.2f, new FabricItemSettings()));
-    public static final Item IRON_SCYTHE = registerItem("iron_scythe", new SwordItem(ToolMaterials.IRON, 0, -3.1f, new FabricItemSettings()));
-    public static final Item GOLDEN_SCYTHE = registerItem("golden_scythe", new SwordItem(ToolMaterials.GOLD, 0, -3f, new FabricItemSettings()));
-    public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe", new SwordItem(ToolMaterials.DIAMOND, 0, -3f, new FabricItemSettings()));
-    public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe", new SwordItem(ToolMaterials.NETHERITE, 0, -3f, new FabricItemSettings()));
+    public static final Item WOODEN_SCYTHE = registerItem("wooden_scythe", new SwordItem(ToolMaterials.WOOD, 6, -3.2f, new FabricItemSettings()));
+    public static final Item STONE_SCYTHE = registerItem("stone_scythe", new SwordItem(ToolMaterials.STONE, 7, -3.2f, new FabricItemSettings()));
+    public static final Item IRON_SCYTHE = registerItem("iron_scythe", new SwordItem(ToolMaterials.IRON, 6, -3.1f, new FabricItemSettings()));
+    public static final Item GOLDEN_SCYTHE = registerItem("golden_scythe", new SwordItem(ToolMaterials.GOLD, 6, -3f, new FabricItemSettings()));
+    public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe", new SwordItem(ToolMaterials.DIAMOND, 5, -3f, new FabricItemSettings()));
+    public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe", new SwordItem(ToolMaterials.NETHERITE, 5, -3f, new FabricItemSettings()));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(WOODEN_SCYTHE);

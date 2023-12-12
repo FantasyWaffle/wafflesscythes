@@ -11,8 +11,8 @@
   },
   "pattern": [
     "XXX",
-    "X#",
-    " #"
+    "X# ",
+    " # "
   ],
   "result": {
     "item": "wafflesscythes:diamond_scythe"
