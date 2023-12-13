@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "pattern": [
+    "000",
+    "01 ",
+    " 1 "
+  ],
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
+    "0": {
       "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    "XXX",
-    "X#",
-    " #"
-  ],
   "result": {
-    "item": "wafflesscythes:iron_scythe"
-  },
-  "show_notification": true
+    "item": "wafflesscythes:iron_scythe",
+    "count": 1
+  }
 }
